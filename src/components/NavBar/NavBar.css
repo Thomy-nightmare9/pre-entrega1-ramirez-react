@@ -1,0 +1,10 @@
+p{
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.cart{
+    display: flex;
+    margin-right: 20px;
+    padding-top: 10px;
+}
