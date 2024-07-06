@@ -1,0 +1,44 @@
+.itemlistcontainer {
+    padding: 50px;
+}
+
+.itemlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 100%;
+    margin: 0 10%;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.item img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card-title {
+    padding: 0 0px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.card-text {
+    padding: 0 0px;
+    color: #000000;
+}
+
+.btn{
+    color: #FFFFFF;
+    font-size: 10px;
+    background-color: #0000FF;
+}
+
+.btn:hover{
+    color: #FFFFFF;
+    background-color: #010ca0;
+}
