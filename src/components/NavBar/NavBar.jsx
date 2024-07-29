@@ -1,7 +1,8 @@
-import logoZonaTimbos from "../../img/logo-zona-timbos.png"
-import CartWidget from "./CartWidget"
-import "./NavBar.css"
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+
+import CartWidget from "./CartWidget";
+import "./NavBar.css";
+import logoZonaTimbos from "../../img/logo-zona-timbos.png";
 
 const NavBar = () => {
     return (
@@ -32,7 +33,7 @@ const NavBar = () => {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Contacto</Link>
+                            <Link className="nav-link" to="/contacto">Contacto</Link>
                         </li>
                     </ul>
                 </div>
